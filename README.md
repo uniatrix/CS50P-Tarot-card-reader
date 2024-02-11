@@ -12,7 +12,7 @@ This Python program allows users to perform tarot card readings by drawing a spe
 
 4. **Tarot Reading**: The program randomly draws the specified number of cards from the deck and displays their details, including name, meaning, suit (for minor arcana), and number (for minor arcana). It then constructs a prompt containing the user's question, the drawn cards, and a system message to feed into the GPT-3.5 model for generating the tarot reading.
 
-5. **GPT Integration**: The program integrates with OpenAI's GPT-3.5 language model to generate a detailed tarot reading based on the user's question and the drawn cards. It sends a prompt containing relevant information to the GPT-3.5 model and receives the generated response.
+5. **GPT Integration**: The program integrates with OpenAI's GPT-3.5 language model to generate a detailed tarot reading based on the user's question and the drawn cards. It sends a prompt containing relevant information to the GPT-3.5 model and receives the generated response. Users need to provide their OpenAI API key to use this feature.
 
 6. **Output**: Finally, the program displays the user's question, the drawn cards, and the generated tarot reading.
 
@@ -30,7 +30,4 @@ This Python program allows users to perform tarot card readings by drawing a spe
 - Python 3.x
 - OpenAI Python SDK (Install via `pip install openai`)
 
-**Notes:**
-
-- Ensure you have an OpenAI API key to use the GPT-3.5 model. Replace the placeholder API key in the `gpt_integration()` function with your actual key.
-- This program is for entertainment purposes only and should not be considered a substitute for professional advice or guidance. Tarot readings are subjective interpretations and should be taken with a grain of salt.
+**Note:** Before using the GPT Integration feature, users must provide their OpenAI API key in the `gpt_integration()` function within the Python script. Replace `"PROVIDE HERE YOUR API KEY"` with your actual API key. Please ensure you have an OpenAI API key to use this feature.

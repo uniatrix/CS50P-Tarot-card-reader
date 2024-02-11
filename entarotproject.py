@@ -141,7 +141,7 @@ def create_card_objects():
 
 
 def gpt_integration(messages):
-    openai.api_key = "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"
+    openai.api_key = "PROVIVE HERE YOUR API KEY"
     
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
